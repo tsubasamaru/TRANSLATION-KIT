@@ -1,5 +1,4 @@
 import tkinter
-from typing import Text
 import gtts
 import googletrans
 import speech_recognition
