@@ -9,7 +9,7 @@ import playsound
 
 translator = googletrans.Translator()
 input_lang = 'ja-JP'
-output_lang = 'ne'
+output_lang = 'en'
 def click_btn():
     text = entry_A.get()
     translated = translator.translate(text, dest = output_lang)
